@@ -1,0 +1,97 @@
+market,trxtype,message,retries,is10digit,ecp
+TLG,ACT,IMSHSS: DN Already Exists,0,Y,CLEAN_RESEND
+JSP,ACT,IMSHSS: DN Already Exists,0,Y,CLEAN_RESEND
+TLG,REST,CTS: Check conversation log for failure reason,0,Y,RSA_HANDLE
+TLG,REST,"Voice-processor internal error (I/O error, UR vali",0,Y,RESEND
+TLG,REST,Error: User unknown,0,Y,RSA_HANDLE
+TLG,SUS,Error: User unknown,0,Y,HANDLE
+TLG,REST,"Registration failed, contact RSP support",0,Y,HANDLE
+TLG,REST,OHP GSM: Subscriber already exists,0,Y,RESEND
+TLG,REST,IMSHSS: Invalid Attribute Value,0,Y,RSA_HANDLE
+TLG,REST,AOTA:Server Error,0,Y,RESEND
+TLG,REST,AOTA:Server Error,1,Y,HANDLE
+TLG,REST,No error code/string found for <BBPM> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HC1B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HC2B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HC3B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HC4B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HG1B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HG2B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HG3B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HG4B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <ENAC> Logical Dvc,0,Y,HANDLE
+TLG,REST,No error code/string found for <RSP1> Logical Dvc,0,Y,HANDLE
+TLG,REST,No error code/string found for <HN3B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HS3P> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <AUDI> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <AUDI> Logical Dvc,1,Y,RSA_HANDLE
+TLG,REST,No error code/string found for <STAR> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <BM1> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HW4B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HW4P> Logical Dvc,0,Y,RESEND
+TLG,CCD,No error code/string found for <COM1> Logical Dvc,0,Y,CLEAN_RESEND
+TLG,CCD,No error code/string found for <COM1> Logical Dvc,1,Y,RSA_HANDLE
+TLG,REST,No error code/string found for <COM1> Logical Dvc,0,Y,RSA_HANDLE
+TLG,CCD,No error code/string found for <VCTS> Logical Dvc,0,Y,CLEAN_RESEND
+TLG,CCD,No error code/string found for <VCTS> Logical Dvc,1,Y,RSA_HANDLE
+TLG,REST,No error code/string found for <VCTS> Logical Dvc,0,Y,RSA_HANDLE
+TLG,REST,No error code/string found for <NSM1> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <NSM2> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <AOTA> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HX1B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <OTAO> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <OTAE> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <CLS> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HW1P> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <XBO1> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HN2P> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HC1P> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HC3B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <ALUO> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <ALUE> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <ALUO> Logical Dvc,1,Y,RSA_HANDLE
+TLG,REST,No error code/string found for <ALUE> Logical Dvc,1,Y,RSA_HANDLE
+TLG,REST,No error code/string found for <HP1P> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HC1P> Logical Dvc,0,Y,RESEND
+TLG,REST,Error : ConfirmOrder refused by server,0,Y,HANDLE
+TLG,REST,No error code/string found for <HC2P> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <GPT> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HN1P> Logical Dvc,0,Y,RESEND
+TLG,REST,OSTPOLICY,0,Y,RESEND
+TLG,REST,OSTPOLICY,1,Y,RESEND
+TLG,REST,OSTPOLICY,2,Y,RESEND
+JSP,REST,IMSHSS: DN Already Exists,0,N,HANDLE
+TLG,REST,No error code/string found for <HW3B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HX1P> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HN2B> Logical Dvc,0,Y,RESEND
+TLG,REST,AOTA: Subscription Not Found by ICCID,0,Y,HANDLE
+TLG,REST,SRP: Parse Failed,0,Y,HANDLE
+JSP,REST,No error code/string found for <IH6P> Logical Dvc,0,N,RESEND
+JSP,REST,No error code/string found for <IH6B> Logical Dvc,0,N,RESEND
+JSP,REST,No error code/string found for <VCTS> Logical Dvc,0,N,CLEAN_RESEND
+TLG,REST,No error code/string found for <HW1B> Logical Dvc,0,Y,RESEND
+TLG,REST,TPP:RingCentral::invalid tracking ProductID,0,Y,HANDLE
+TLG,REST,CTS: Number not found on any FSDB,0,Y,RSA_HANDLE
+TLG,SUS,CTS: Number not found on any FSDB,0,Y,HANDLE
+TLG,REST,IMSHSS: Invalid Attribute Value,0,Y,RSA_HANDLE
+TLG,SUS,IMSHSS: Invalid Attribute Value,0,Y,HANDLE
+TLG,REST,CMG: Unknown BM Internal Error.Chk with BM,0,Y,HANDLE
+TLG,REST,No error code/string found for <HS2P> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <CNS1> Logical Dvc,0,Y,CLEAN_RESEND
+TLG,REST,No error code/string found for <HS3B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <SMS1> Logical Dvc,0,Y,RSA_HANDLE
+TLG,REST,No error code/string found for <IH3P> Logical Dvc,0,Y,RESEND
+TLG,RST,"UCE Incorrect URI, XML doc not exists or been del",0,Y,RSA_HANDLE
+TLG,ACT,ENUM: Unique key constraint violation,0,Y,RESEND
+TLG,REST,HSS: Invalid K_VALUE,0,Y,HANDLE
+TLG,REST,AOTA:Database Error,0,Y,RESEND
+TLG,REST,No error code/string found for <HN1B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HS2B> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HN3P> Logical Dvc,0,Y,RESEND
+TLG,REST,No error code/string found for <HC3P> Logical Dvc,0,Y,RESEND
+TLG,NTY,No error code/string found for <SNM1> Logical Dvc,0,Y,HANDLE
+TLG,REST,CRITICAL ERROR Occurred - Check the Error logs,0,Y,CLEAN_RESEND
+TLG,SUS,TPP:RingCentralOH::cancelled account expected,0,Y,HANDLE
+TLG,RST,"UCE Incorrect URI, XML doc not exists or been del",0,Y,RSA_HANDLE
+TLG,SUS,OHP GSM: IMSI doesnot exist,0,Y,HANDLE
+CSI,UTR,No error code/string found for <COM1> Logical Dvc,0,Y,RESEND
